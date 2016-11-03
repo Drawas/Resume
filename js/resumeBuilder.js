@@ -136,13 +136,13 @@ var projects = {
       "title":"The Pit",
       "dates": "20XX-20XX",
       "description": "Digging a pit.",
-      "images": ["images/197x148.gif"]
+      "images": ["images/Hans_Moleman.png"]
     },
     {
       "title":"The Sea",
       "dates": "20XX-20XX",
       "description": "Making a sea.",
-      "images": ["images/197x148.gif"]
+      "images": ["images/Horatio_McCallister.png"]
     }
   ],
   "display":function(){
@@ -163,7 +163,10 @@ bio.display();
 education.display();
 work.display();
 projects.display();
-$("#mapdiv").append(googleMap);
+
+$("#mapDiv").append(googleMap);
+$("#mapDiv").find("h2").addClass("center-heading");
+
 
 //  $(document).click(function(loc) {
 //   var x=loc.pageX;
