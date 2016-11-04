@@ -20,7 +20,7 @@ var bio = {
         $("#header").prepend(formattedName);
 
 
-        var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile).addClass;
+        var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
         var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
         var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
         var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
